@@ -6,14 +6,14 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ReadWriteFile;
 
 import org.firstinspires.ftc.robotcore.internal.system.AppUtil;
-import org.firstinspires.ftc.teamcode.BaseOpModes.OdometryBaseOpMode;
+import org.firstinspires.ftc.teamcode.Components.OdometryBaseOpmode;
 
 import java.io.File;
 
 import RMath.Util;
 
 @Autonomous(group="Odometry")
-public class OdoCalibration extends OdometryBaseOpMode {
+public class OdoCalibration extends OdometryBaseOpmode {
 
     private boolean LEFT_REVERSED = false;
     private boolean RIGHT_REVERSED = false;
